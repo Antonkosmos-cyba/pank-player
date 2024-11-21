@@ -41,6 +41,27 @@ button {
   padding: 2.5rem 0;
 }
 
+.extraControls {
+  margin-top: 2.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dot {
+  position: absolute;
+  bottom: -2px;
+  left: 0.675rem;
+  width: 0.3125rem;
+  height: 0.3125rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+#canvasWrapper canvas {
+  outline: 2px solid var(--primary-color);
+}
+
 @media only screen and (min-width: 768px) {
   .app {
     align-items: center;
