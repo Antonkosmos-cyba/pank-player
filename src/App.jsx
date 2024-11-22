@@ -42,6 +42,16 @@ const songs = [
   },
 ];
 
+class AudioAnalyser {
+  constructor(audioElement) {
+    this.context = new (window.AudioContext || window.webkitAudioContext)();
+    this.source = this.context.createMediaElementSource(audioElement);
+    this.analyserNode = this.context.createAnalyser();
+    this.source.connect(this.analyserNode);
+    this.analyserNode.connect(this.context.destination);
+  }
+}
+
 function App() {
   const audioRef = useRef();
   const [playlist, setPlaylist] = useState(songs);
@@ -54,6 +64,7 @@ function App() {
   const [repeat, setRepeat] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [volume, setVolume] = useState(0.7);
+  const [analyser, setAnalyser] = useState(null);
   const [visualizer, setVisualizer] = useState(false);
   const [shuffle, setShuffle] = useState(false);
   const [shuffledPlaylist, setShuffledPlaylist] = useState(songs);
@@ -70,6 +81,7 @@ function App() {
 
   const setLoadedData = async () => {
     const audio = audioRef.current;
+    !analyser && setAnalyser(new AudioAnalyser(audio));
     setTimeElapsed(audio.currentTime);
     setSongLength(audio.duration);
   };
@@ -181,7 +193,13 @@ function App() {
         crossOrigin="anonymous"
       ></audio>
       <div className="layout">
-        <SongDetails song={playlist[currentSongIndex]} />
+        <SongDetails
+          visualizer={visualizer}
+          source={analyser?.source}
+          analyser={analyser?.analyserNode}
+          currentSongIndex={currentSongIndex}
+          song={playlist[currentSongIndex]}
+        />
         <ExtraControls>
           <Volume
             value={volume * 100}
