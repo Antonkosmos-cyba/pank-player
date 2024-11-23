@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Soundwave } from "react-bootstrap-icons";
-
 import ExtraControls from "./components/ExtraControls";
 import PlayerControls from "./components/PlayerControls";
 import Progress from "./components/Progress";
