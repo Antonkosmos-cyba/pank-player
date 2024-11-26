@@ -6,38 +6,74 @@ import Progress from "./components/Progress";
 import SongDetails from "./components/SongDetails";
 import Volume from "./components/Volume";
 
+import Billi_webp from "./media/images/billy_ha.webp";
+import Billi_ogg from "./media/music/Billy_Haley-Rock_Around_the_Clock.ogg";
+
+import Bravo_webp from "./media/images/bravo.webp";
+import Bravo_ogg from "./media/music/Bravo-Leningradskij_rok_n_roll.ogg";
+
+import Chaif_webp from "./media/images/chaif.webp";
+import Chaif_ogg from "./media/music/CHajf-Rok-n-roll_jetojj_nochi.ogg";
+import Elvis_webp from "./media/images/Elvis.webp";
+import Elvis_ogg from "./media/music/Elvis_Presley-Jailhouse_Rock.ogg";
+import Rich_webp from "./media/images/little_richard.webp";
+import Rich_ogg from "./media/music/Little_Richard-Tutti_rutti.ogg";
+
+// import Rich_webp from "./media/images/little_richard.webp";
+import Roll_ogg from "./media/music/Rolling_Stounz-Pokras_V_CHernoe.ogg";
+
+import the_Beatles_webp from "./media/images/the_Beatles.webp";
+import the_Beatles_ogg from "./media/music/The_Beatles-Rock_And_Roll_Music.ogg";
+
 const songs = [
   {
     id: 0,
-    title: "Machinery of War",
-    artist: "Evgeny Bardyuzha",
-    image:
-      "https://res.cloudinary.com/tropicolx/image/upload/v1675352152/music_app/machinery-of-war_fqu8z6.jpg",
-    src: "https://res.cloudinary.com/tropicolx/video/upload/v1675218409/music_app/Evgeny_Bardyuzha_-_Machinery_of_War_fyaroh.mp3",
+    title: "Rock Around the Clock",
+    artist: "Billy Haley",
+    image: Billi_webp,
+    src: Billi_ogg,
   },
   {
     id: 1,
-    title: "Nova",
-    artist: "2050",
-    image:
-      "https://res.cloudinary.com/tropicolx/image/upload/v1675351835/music_app/song-2_ljg2wd.jpg",
-    src: "https://res.cloudinary.com/tropicolx/video/upload/v1675218406/music_app/2050_-_Nova_jp2ila.mp3",
+    title: "Ленинградский рокнролл",
+    artist: 'группа "Браво"',
+    image: Bravo_webp,
+    src: Bravo_ogg,
   },
   {
     id: 2,
-    title: "Medusa",
-    artist: "Kryptos",
-    image:
-      "https://res.cloudinary.com/tropicolx/image/upload/v1675351585/music_app/song-3_ppgsaf.jpg",
-    src: "https://res.cloudinary.com/tropicolx/video/upload/v1675218402/music_app/Kryptos_-_Medusa_yyj3nc.mp3",
+    title: "Рокнролл этой ночи",
+    artist: 'группа "Чайф" ',
+    image: Chaif_webp,
+    src: Chaif_ogg,
   },
   {
     id: 3,
-    title: "Artificial Intelligence",
-    artist: "Lance Conrad",
-    image:
-      "https://res.cloudinary.com/tropicolx/image/upload/v1675351701/music_app/song-4_yaqewe.jpg",
-    src: "https://res.cloudinary.com/tropicolx/video/upload/v1675218398/music_app/Lance_Conrad_-_Artificial_Intelligence_ioozhh.mp3",
+    title: "Jailhouse Rock",
+    artist: "Elvis Presley",
+    image: Elvis_webp,
+    src: Elvis_ogg,
+  },
+  {
+    id: 4,
+    title: "Tutti Frutti",
+    artist: "Little Richard",
+    image: Rich_webp,
+    src: Rich_ogg,
+  },
+  {
+    id: 5,
+    title: "Paint it Black",
+    artist: "Rolling Stones",
+    image: Rich_webp,
+    src: Roll_ogg,
+  },
+  {
+    id: 6,
+    title: "The Beatles",
+    artist: "Rock And Roll Music",
+    image: the_Beatles_webp,
+    src: the_Beatles_ogg,
   },
 ];
 
