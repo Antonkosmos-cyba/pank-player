@@ -9,14 +9,17 @@
 :root {
   --primary-color: #ffee08;
   --caption-color: rgba(255, 238, 8, 0.48);
-  --background-color: #030816;
+  /* --background-color: #030816; */
 
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aquamarine;
+  background-image: url(./media/images/fonroknroll.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -29,7 +32,8 @@ button {
 }
 
 .app {
-  background: var(--background-color);
+  /* background: var(--background-color); */
+  /* background-image: "./media/images/fonroknroll.webp"; */
   height: 100svh;
   display: flex;
   justify-content: center;

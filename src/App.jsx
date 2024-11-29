@@ -19,7 +19,7 @@ import Elvis_ogg from "./media/music/Elvis_Presley-Jailhouse_Rock.ogg";
 import Rich_webp from "./media/images/little_richard.webp";
 import Rich_ogg from "./media/music/Little_Richard-Tutti_rutti.ogg";
 
-// import Rich_webp from "./media/images/little_richard.webp";
+import Roll_webp from "./media/images/Roling.webp";
 import Roll_ogg from "./media/music/Rolling_Stounz-Pokras_V_CHernoe.ogg";
 
 import the_Beatles_webp from "./media/images/the_Beatles.webp";
@@ -65,7 +65,7 @@ const songs = [
     id: 5,
     title: "Paint it Black",
     artist: "Rolling Stones",
-    image: Rich_webp,
+    image: Roll_webp,
     src: Roll_ogg,
   },
   {
