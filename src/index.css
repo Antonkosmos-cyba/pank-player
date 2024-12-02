@@ -7,12 +7,10 @@
 }
 
 :root {
-  /* --primary-color: #ffee08; */
-  --caption-color: #ed26ed;
   --primary-color: #269826;
-  --red: #cb0d39;
-
-  /* --background-color: #030816; */
+  --secondary-color: #80e780;
+  --song-color: #169826;
+  --actor-color: #ed26ed;
 
 }
 

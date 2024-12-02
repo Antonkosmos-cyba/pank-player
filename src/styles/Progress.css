@@ -6,7 +6,7 @@
   -webkit-appearance: none;
   appearance: none;
   background: transparent;
-  border: 2px solid rgba(255, 238, 8, 0.5);
+  border: 2px solid var(--primary-color);
   width: 100%;
   height: 0.5rem;
 }
@@ -22,10 +22,11 @@
 .progress__slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 0.875rem;
-  height: 0.875rem;
+  border-radius: 50%;
+  width: 0.975rem;
+  height: 0.975rem;
   outline: 2px solid var(--primary-color);
-  background: #f8ef00;
+  background: var(--primary-color);
   cursor: pointer;
   position: relative;
 }
@@ -34,7 +35,7 @@
   width: 0.875rem;
   height: 0.875rem;
   outline: 2px solid var(--primary-color);
-  background: #269826;
+  background: var(--primary-color);
   cursor: pointer;
   position: relative;
 }

@@ -57,7 +57,7 @@
   height: 1.6875rem;
   outline: 2px solid var(--primary-color);
   border-radius: 0.3125rem;
-  background: #269826;
+  background: var(--primary-color);
   cursor: pointer;
   position: relative;
 }
