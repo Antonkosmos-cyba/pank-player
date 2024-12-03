@@ -1,8 +1,44 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+СМЕНА ЦВЕТОВОЙ ГАММЫ ПРОИГРЫВАТЕЛЯ
 
-Currently, two official plugins are available:
+1. Основной набор
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+index.css
+
+.root
+
+<!-- Автоматичеcки меняются: -->
+
+1. --primary-color:
+
+<!--!! Цвета svg иконок -->
+
+SongImage.jsx
+
+[рамка фото]
+
+строки 28, 36, 45 - свойство stroke
+строка 51 - свойство fill
+
+Volume.jsx - регулятор громкости
+
+строки 47, 62, 66, 85, 117 - свойство fill
+строки 118 - свойство stroke
+
+<!--!! Прогресс бар и кнопки -->
+
+PlayerControls.jsx
+
+строка 27 константа color
+
+Progress.jsx
+
+строка 25
+background gradient
+
+2. --secondary-color
+
+<!-- !! Фон громкости -->
+
+строка 117 свойство fill

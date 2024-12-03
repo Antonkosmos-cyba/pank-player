@@ -42,8 +42,8 @@ const Visualizer = ({ analyser, source, currentSongIndex }) => {
 
         let t = i / bufferLength;
         let r = (1 - t) * 255 + t * 2;
-        let g = (1 - t) * 238 + t * 215;
-        let b = (1 - t) * 8 + t * 242;
+        let g = (1 - t) * 50 + t * 255;
+        let b = (1 - t) * 255 + t * 2;
 
         ctx.fillStyle =
           "rgb(" +
