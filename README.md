@@ -2,21 +2,21 @@
 
 СМЕНА ЦВЕТОВОЙ ГАММЫ ПРОИГРЫВАТЕЛЯ
 
-1. Основной набор
+Базовые места:
 
-index.css
+index.css - .root
 
-.root
+Visualizer.jsx - 43 / 46 rgb
 
 <!-- Автоматичеcки меняются: -->
 
 1. --primary-color:
 
+(Visualizer.jsx line 37 ?)
+
 <!--!! Цвета svg иконок -->
 
-SongImage.jsx
-
-[рамка фото]
+SongImage.jsx [рамка фото]
 
 строки 28, 36, 45 - свойство stroke
 строка 51 - свойство fill
@@ -26,7 +26,7 @@ Volume.jsx - регулятор громкости
 строки 47, 62, 66, 85, 117 - свойство fill
 строки 118 - свойство stroke
 
-<!--!! Прогресс бар и кнопки -->
+<!--!! Рамка, прогресс бар и кнопки -->
 
 PlayerControls.jsx
 
@@ -37,8 +37,23 @@ Progress.jsx
 строка 25
 background gradient
 
+index.css
+
+46 .layout border
+65 .dot background-color
+
 2. --secondary-color
 
 <!-- !! Фон громкости -->
 
+Volume.jsx
+
 строка 117 свойство fill
+
+3. --song-color, --actor-color
+
+<!--!! Названиее песни и исполнитель -->
+
+SongDetails.css
+
+line 29 , 38

@@ -43,8 +43,6 @@ button {
 
 .layout {
   background-color: rgba(254, 250, 254, 0.767);
-
-
   border: 4px solid var(--primary-color);
   max-width: 24.375rem;
   padding: 2.5rem 0;
