@@ -9,8 +9,8 @@
 :root {
   --primary-color: #263998;
   --secondary-color: #8280e7;
-  --song-color: #3b3d3c;
-  --actor-color: #9c3636;
+  --song-color: #375bbe;
+  --actor-color: #3825e1;
 
 }
 
@@ -66,7 +66,7 @@ button {
 }
 
 #canvasWrapper canvas {
-  outline: 2px solid var();
+  outline: 2px solid var(--primary-color);
 }
 
 @media only screen and (min-width: 768px) {

@@ -41,6 +41,7 @@ index.css
 
 46 .layout border
 65 .dot background-color
+69 #canvasWrapper canvas
 
 2. --secondary-color
 
