@@ -26,6 +26,9 @@ Volume.jsx - регулятор громкости
 строки 47, 62, 66, 85, 117 - свойство fill
 строки 118 - свойство stroke
 
+Volume.css
+lines 40, 50, 58, 60
+
 <!--!! Рамка, прогресс бар и кнопки -->
 
 PlayerControls.jsx
@@ -37,11 +40,18 @@ Progress.jsx
 строка 25
 background gradient
 
+Prodress.css
+lines 9, 19, 28, 29, 37, 38, 49
+
 index.css
 
 46 .layout border
 65 .dot background-color
 69 #canvasWrapper canvas
+
+App.js
+
+247 color
 
 2. --secondary-color
 

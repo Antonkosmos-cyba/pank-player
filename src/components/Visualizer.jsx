@@ -34,7 +34,8 @@ const Visualizer = ({ analyser, source, currentSongIndex }) => {
 
       analyser.getByteFrequencyData(dataArray);
 
-      ctx.fillStyle = "var=(--primary-color)";
+      ctx.fillStyle = "#1cdfe7";
+
       ctx.fillRect(0, 0, width, height);
 
       for (let i = 0; i < bufferLength; i++) {
