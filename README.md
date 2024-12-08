@@ -7,6 +7,7 @@
 index.css - .root
 
 Visualizer.jsx - 43 / 46 rgb
+фон Visualizera - 37
 
 <!-- Автоматичеcки меняются: -->
 
