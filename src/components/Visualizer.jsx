@@ -1,5 +1,6 @@
 // components/Visualizer.jsx
 import React, { useEffect } from "react";
+import "../index.css";
 
 let width = 310;
 let height = 267;

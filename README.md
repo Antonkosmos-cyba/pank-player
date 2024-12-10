@@ -4,53 +4,54 @@
 
 Базовые места:
 
-index.css - .root
+- index.css - .root
 
-Visualizer.jsx - 43 / 46 rgb
-фон Visualizera - 37
+- Visualizer.jsx
 
-<!-- Автоматичеcки меняются: -->
+37 (фон визуалайзера)
+43 / 46 rgb (волны)
+
+<!-- При этом Автоматичеcки меняются: -->
 
 1. --primary-color:
 
-(Visualizer.jsx line 37 ?)
-
 <!--!! Цвета svg иконок -->
 
-SongImage.jsx [рамка фото]
+- SongImage.jsx [рамка фото]
 
 строки 28, 36, 45 - свойство stroke
 строка 51 - свойство fill
 
-Volume.jsx - регулятор громкости
+- Volume.jsx - регулятор громкости
 
 строки 47, 62, 66, 85, 117 - свойство fill
 строки 118 - свойство stroke
 
-Volume.css
+- Volume.css
+
 lines 40, 50, 58, 60
 
 <!--!! Рамка, прогресс бар и кнопки -->
 
-PlayerControls.jsx
+- PlayerControls.jsx
 
 строка 27 константа color
 
-Progress.jsx
+- Progress.jsx
 
 строка 25
 background gradient
 
-Prodress.css
-lines 9, 19, 28, 29, 37, 38, 49
+- Prodress.css
+  lines 9, 19, 28, 29, 37, 38, 49
 
-index.css
+- index.css
 
 46 .layout border
 65 .dot background-color
 69 #canvasWrapper canvas
 
-App.js
+- App.js
 
 247 color
 
@@ -58,7 +59,7 @@ App.js
 
 <!-- !! Фон громкости -->
 
-Volume.jsx
+- Volume.jsx
 
 строка 117 свойство fill
 
@@ -66,6 +67,6 @@ Volume.jsx
 
 <!--!! Названиее песни и исполнитель -->
 
-SongDetails.css
+- SongDetails.css
 
 line 29 , 38
