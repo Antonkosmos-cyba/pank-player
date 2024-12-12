@@ -14,8 +14,8 @@ const SongImage = ({ url }) => {
 
   return (
     <svg
-      width="310"
-      height="267"
+      width="100%"
+      height="auto"
       viewBox="0 0 310 267"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
