@@ -24,7 +24,9 @@ const SongDetails = ({
         )}
       </div>
       <div className="songDetails__info">
-        <h3 className="songDetails__songName">{song.title}</h3>
+        <marquee behavior="scroll" direction="left">
+          <h3 className="songDetails__songName">{song.title}</h3>
+        </marquee>
         <h4 className="songDetails__artistName">{song.artist}</h4>
       </div>
     </div>
