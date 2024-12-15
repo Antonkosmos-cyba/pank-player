@@ -35,14 +35,14 @@ const songs = [
   },
   {
     id: 1,
-    title: "Ленинградский рокнролл",
+    title: "Ленинградский рок-н-ролл",
     artist: 'группа "Браво"',
     image: Bravo_webp,
     src: Bravo_ogg,
   },
   {
     id: 2,
-    title: "Рокнролл этой ночи",
+    title: "Рок-н-ролл этой ночи",
     artist: 'группа "Чайф" ',
     image: Chaif_webp,
     src: Chaif_ogg,
@@ -70,8 +70,8 @@ const songs = [
   },
   {
     id: 6,
-    title: "The Beatles",
-    artist: "Rock And Roll Music",
+    title: "Rock And Roll Music",
+    artist: "The Beatles",
     image: the_Beatles_webp,
     src: the_Beatles_ogg,
   },
